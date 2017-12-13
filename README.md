@@ -72,7 +72,7 @@ $ conda install -c anaconda jupyter
 ### 2.4 Install R and R-packages
 
 ```bash
-$ conda install -c r r-essentials
+$ conda install -c r r-essentials rstudio
 ```
 
 
