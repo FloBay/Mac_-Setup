@@ -1,7 +1,9 @@
-# Mac_-Setup
+# Mac Setup
 How to setup an Mac for programming
 
 This includes the following steps:
+
+
 
 ## 1. Install Xcode:
 
@@ -40,6 +42,8 @@ $ gcc --version
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 ```
 
+
+
 ## 2. Install Anaconda:
 
 ### 2.1 Download and install Anaconda (64-bit version)
@@ -71,9 +75,19 @@ $ conda install -c anaconda jupyter
 $ conda install -c r r-essentials
 ```
 
+
+
 ## 3. Download important Python libraries:
+
+### 3.1 Add conda-forge to the search channels
+
+```bash
+$ conda config --add channels conda-forge
+```
+### 3.2 Install the packages from the requirements.txt
 
 ```bash
 $ conda install --yes --file python_requirements.txt
 ```
+
 ...
