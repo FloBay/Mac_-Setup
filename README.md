@@ -73,4 +73,7 @@ $ conda install -c r r-essentials
 
 ## 3. Download important Python libraries:
 
+```bash
+$ conda install --yes --file python_requirements.txt
+```
 ...
